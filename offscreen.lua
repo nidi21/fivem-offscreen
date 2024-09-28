@@ -42,7 +42,7 @@ local function draw_triangle(worldVec,width, color, ignoreScreen)
     local sign = sign(crossed.z)
 
     angle = angle + 1.570796251
-    if sign == 1 then angle = math.pi - angle print(angle) end
+    if sign == 1 then angle = math.pi - angle end
     
     local sin_angle = math.sin(angle)
     local cos_angle = math.cos(angle)
